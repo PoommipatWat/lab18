@@ -4,7 +4,7 @@ using namespace std;
 void myString(char * &p, int N){
 	p = new char [N];    
 	for(int i = 0; i < N;i++) p[i] = 'A'+i;
-	N = 0;
+	p[N] = 0;
 }
 
 int main(){
